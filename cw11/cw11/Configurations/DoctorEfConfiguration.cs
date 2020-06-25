@@ -16,7 +16,7 @@ namespace cw11.Configurations
             builder.Property(x => x.FirstName).HasMaxLength(100);
             builder.Property(x => x.LastName).HasMaxLength(100);
             builder.Property(x => x.Email).HasMaxLength(100);
-
+             
             var doctors = new List<Doctor>
             {
                 new Doctor
